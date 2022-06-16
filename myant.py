@@ -11,7 +11,7 @@ WIDTH, HEIGHT = 700, 500
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("game")
 
-candy = pygame.image.load('/Users/mac/Desktop/未命名檔案夾/食物語/食物語015-20200404-172438.jpg').convert_alpha()
+candy = pygame.image.load('15b9875454c170af.jpeg').convert_alpha()
 candy = pygame.transform.scale(candy,(15,12))
 
 drawing = pygame.Surface(screen.get_size())
